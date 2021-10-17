@@ -35,6 +35,5 @@ Write a function which takes two objects and return the person with more age.  [
 
 1. Create two objects with name, power, and yuga as Ram, 2500, Treta. Krishna, 2325, Dwapar. 
 Say if every character in name is worth 35 power points.
-Write a function which takes two objects and return the person with more power based on their name and power both.
-
+Write a function which takes two objects and return the person with more power based on their name and power both. [solution](https://replit.com/@Vaibhav18Matere/Ram-Krishna-greater-Combined-result-name35-power#script.js)
 1. Create a CLI app which would detect fake news. This app will take news as input and then source. If source is Facebook or whatsapp then it will output user saying, `"Don't believe things on FB and Whatsapp"`. Can you extend this to include telegram as well?
