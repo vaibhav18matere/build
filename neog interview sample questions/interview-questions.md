@@ -10,7 +10,7 @@
 
 1. Create a web app where I can input a text. Now, create three buttons: `red, green, blue`. Clicking on the button should change the text color. [Solution](https://replit.com/@Vaibhav18Matere/4-btn-click-greater-txt-color-change#index.html) 
 
-1. Create a CLI app which takes name, unit test marks, pre final marks, final marks of 5 students. And then print who has the highest marks. What if I ask you to print the average as well?
+1. Create a CLI app which takes name, unit test marks, pre final marks, final marks of 5 students. And then print who has the highest marks. What if I ask you to print the average as well? [Solution](https://replit.com/@Vaibhav18Matere/CLI-App-greater-Avg-and-highest-marks-of-Students)  
 
 1. Create a web app with a button loaded. Show a text `loading...` on a web app. However, hide it if I click on the button loaded.
 
