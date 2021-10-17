@@ -14,7 +14,7 @@
 
 1. Create a web app with a button loaded. Show a text `loading...` on a web app. However, hide it if I click on the button loaded. [Solution]( https://replit.com/@Vaibhav18Matere/btn-hide-when-click#index.html)  
 
-1. Here's an API. Create a web app to call this API with your full name and print the response. This could be extended where we ask you to do something with the response. Like add a text, or capitalise etc.
+1. Here's an API. Create a web app to call this API with your full name and print the response. This could be extended where we ask you to do something with the response. Like add a text, or capitalise etc.[Solution](https://replit.com/@Vaibhav18Matere/API-Call-Name-Capitalize) 
 
 1. Here's an API. It will give an error. Write a web app, call this API and read the error message. Show user the error message.
 
