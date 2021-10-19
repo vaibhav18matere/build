@@ -26,4 +26,5 @@
   19. Create a web app, where I input my name, and then I input a password. If the password contains the input name in it, Show an error message "Password can't have name". Hint: Use includes() function
   20. Here's an API - [https://mystery-api.kushanksriraj.repl.co/get](https://mystery-api.kushanksriraj.repl.co/get) it can give two errors. Either 404, or 401. If the error is 404, show the user 'page not found' and if the error is 401, show the user 'you are not logged in' 
   21. Here is an API https://random.dog/woof.json?ref=apilist.fun , Show URL and image.
+  22. Create a web app, which On the Click of a button fetches data from the provided API https://mock-practice.prakhar10v.repl.co/items and from the data, displays the item with the highest price on the screen, below the button. 
     
