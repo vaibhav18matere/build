@@ -30,7 +30,7 @@
 
 1. Write a program to take a number input from user and print multiplication table 12 times for that number.
 
-1. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21....
+1. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
 
 1. Write a program to take an input from a user and find its Factorial.
    `Example: Factorial of 5 is 120`
