@@ -10,3 +10,16 @@
   10. Create a web app to simulate the character counter functionality of Twitter. When user starts to type something, counter should starts to decrease from 30. When counter reaches to 15, show it in yellow till 0. When counter reaches to 0, show it in red till infinite -ve number ( no min limit ). Now create a button. On clicking the button, show the input text on web page. Also, when counter is less than 0, disable the button.[solution2](https://stackblitz.com/edit/react-8enkr9?file=src/App.js)
   11.  Have a text, and three buttons left, right and center. On clicking right button the text should move to right. Similarly for left and center.
   12.  Here's an API, https://mystery-api.kushanksriraj.repl.co/get it can give two errors. Either 404, or 401. If the error is 404, show the user 'page not found' and if the error is 401, show the user 'you are not logged in
+  13.  Take an input from the user in text format . Have 3 buttons with the names of "Log" ,"Warn" and "Error". If user clicks on "Log" button then the text entered by user will be shown in black color. Similarly if the user clicks on "Warn " and "Error " buttons then the text entered by user will be shown on the screen in the yellow and red colors respectively.
+  14.  Create two input fields where users can input numbers. Highlight the input field whose value is more(You can change the background colour for highlighting). Also, print a message saying which number is the highest.
+  15.  Import three fonts from Google fonts. Then create a p tag with some text inside it. Now, create three buttons with these font names. On the clicking button, the text font should change accordingly.
+  16.  You need to create three input fields and an output field. First, two input fields will take numbers as input. The last input field will take the operator as input. Operators are +, -, × and /. If the third input field value is + then show in the output field the sum of the first input value + second input value. Similarly, if we enter ×, - and / in the third input field. Note: Button is not required. Bonus for this question: limit the last input field to take only +,-,× and /. Show error if user gives any other input
+  17.  Add a text field. Insert a sentence. Now create a button. On clicking the button, highlight the word in the sentence with most number of characters
+  18.  Create an input field where the user can enter his/her full birthday. You have to calculate user age. Now create a button to check the following condition.
+    
+    i) If the age is greater than 18 years then show a message to the user that You can drive.
+    
+    ii) If the age is less than 18 years then show a message that You can't drive.
+    
+    BONUS- If the user enters a future date then show an error.
+    
