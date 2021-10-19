@@ -24,4 +24,5 @@
     BONUS- If the user enters a future date then show an error.
     
   19. Create a web app, where I input my name, and then I input a password. If the password contains the input name in it, Show an error message "Password can't have name". Hint: Use includes() function
+  20. Here's an API - [https://mystery-api.kushanksriraj.repl.co/get](https://mystery-api.kushanksriraj.repl.co/get) it can give two errors. Either 404, or 401. If the error is 404, show the user 'page not found' and if the error is 401, show the user 'you are not logged in' 
     
