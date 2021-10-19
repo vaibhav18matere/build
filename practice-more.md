@@ -1,1 +1,2 @@
-
+Create a web app where I can input a text. Now reverse the text and on clicking the button, show the output. [solution](https://replit.com/@Vaibhav18Matere/splitreversejoin-for-loop#index.html)
+Here’s an API. [API](https://randomuser.me/api/?results=10) Fetch the name and age of user and show them on the web page. Now check weather the user is eligible for vaccination ( must be above 45 ). If yes, show the name in green colour. [solution](https://replit.com/@Vaibhav18Matere/API-name-agegreater45-vaccination)
