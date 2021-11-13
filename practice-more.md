@@ -29,4 +29,5 @@
   21. Here is an API https://random.dog/woof.json?ref=apilist.fun , Show URL and image.
   22. Create a web app, which On the Click of a button fetches data from the provided API https://mock-practice.prakhar10v.repl.co/items and from the data, displays the item with the highest price on the screen, below the button. 
   23. Create a password checker web application having 2 input sections that takes the password.If the value in both sections are equal then show the message Success on the screen and if not equal then show Passwords Mismatched on the click of a button [solution](https://replit.com/@Vaibhav18Matere/2-different-password-validator#index.html)
+  24. Create a profit and loss calculator, in which make two input sections. one will take current price and other one will take the cost price and to show result one will click on a button and a message will be shown, if there is loss then you just have to show a message with loss amount and similarly for profit [Solution](https://replit.com/@Vaibhav18Matere/profit-loss-calculator)
     
