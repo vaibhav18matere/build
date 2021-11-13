@@ -16,6 +16,7 @@
   16.  You need to create three input fields and an output field. First, two input fields will take numbers as input. The last input field will take the operator as input. Operators are +, -, × and /. If the third input field value is + then show in the output field the sum of the first input value + second input value. Similarly, if we enter ×, - and / in the third input field. Note: Button is not required. Bonus for this question: limit the last input field to take only +,-,× and /. Show error if user gives any other input
   17.  Add a text field. Insert a sentence. Now create a button. On clicking the button, highlight the word in the sentence with most number of characters
   18.  Create an input field where the user can enter his/her full birthday. You have to calculate user age. Now create a button to check the following condition.
+  19.  Create a password checker web application having 2 input sections that takes the password.If the value in both sections are equal then show the message Success on the screen and if not equal then show Passwords Mismatched on the click of a button [solution](https://replit.com/@Vaibhav18Matere/2-different-password-validator#index.html)
     
     i) If the age is greater than 18 years then show a message to the user that You can drive.
     
