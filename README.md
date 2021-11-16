@@ -1,2 +1,2 @@
 # build
-neog.camp practice questions for building logic 
+Practice questions for building logic 
