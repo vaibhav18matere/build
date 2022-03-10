@@ -68,7 +68,7 @@ export default function App() {
 
 - Fix the dependency array for the network call being made in previous homework where you are saving the wishlist to server.
 
-### Can you fix the problem?
+### ex3 Can you fix the problem?
 
 [Question](https://codesandbox.io/s/fix-localstorage-success-saved-sggj0)
 
@@ -78,21 +78,21 @@ export default function App() {
 
 [axios syntax](https://github.com/axios/axios)
 
-### ex01: GET data
+### ex04: GET data
 
 - [challenge](https://codesandbox.io/s/load-data-exercise-xm4qo?file=/README.md)
 
 - [solution](https://codesandbox.io/s/load-data-exercise-forked-cy4vbg)
 
-### ex02: Load Data on page render
+### ex05: Load Data on page render
 
 - [challenge](https://codesandbox.io/s/load-products-tzdb8?file=/README.md)
 
-### ex03: POST data
+### ex06: POST data
 
 - [challenge](https://codesandbox.io/s/post-request-exercise-exo0j)
 
-### homework
+### ex07
 
 - This is your address management for eCommerce website.
 - Overtime, turn it into a full-fledged app with all the bells and whistles of address management
