@@ -1,4 +1,4 @@
-### Increase Font size, Increase counter and change bcg color (useState)
+### Increase Font size, Increase counter and change background color
 
 [codesandbox solution](https://codesandbox.io/s/thinking-in-react-l6y20x?file=/src/App.js)
 
@@ -22,6 +22,8 @@
 
 - Add a submit button to password change field. Disable submit button if passwords don't match
   Clicking on submit should console the password field.
+
+[codesandbox solution](https://codesandbox.io/s/reverent-glitter-n4w6x1?file=/src/DisablePass.jsx)
 
 ### ex5: show password
 
