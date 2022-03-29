@@ -1,8 +1,9 @@
-### cw01: Increment button counter
+### Class Work 1: Increment button counter
 
-- Create a button and increment a counter every time that button is clicked. Using the syntax shown above, log the counter on console after every render.
+- Create a button and increment a counter every time that button is clicked. log the counter on console after every render.
+[Solution](https://codesandbox.io/s/useeffect-odno00?file=/src/Counter.jsx)
 
-### cw02: predict the output and order
+### Class Work 2: predict the output and order
 
 - What will be the console for the initial render?
 - What will be the console after user clicks increment button?
