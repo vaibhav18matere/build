@@ -35,24 +35,25 @@ export default function App() {
 
 [solution](https://codesandbox.io/s/objective-dawn-93tbf8)
 
-### cw03: save items to localStorage
+### Class Work 3: Save items to localStorage
 
 - Documentation to refer: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
-  Open your console.
-  localStorage.setItem('myKey', 'myValue')
-  Go to Applications and you'll see this value updated.
-  Now, let's refresh the browser
-  You see that it's still there. Local Storage values are preserved across sessions.
-  Let's read this value in console using localStorage.getItem('myKey')
-  Now, let's try to store an array into localStorage, you'll see that it loses the value
-  How do we solve this? JSON.stringify() to the rescue.
-  Let's take 5 minutes and try these API now.
+  - Open your console.
+  - localStorage.setItem('myKey', 'myValue')
+  - Go to Applications and you'll see this value updated.
+  - Now, let's refresh the browser
+  - You see that it's still there. Local Storage values are preserved across sessions.
+  - Let's read this value in console using localStorage.getItem('myKey')
+  - Now, let's try to store an array into localStorage, you'll see that it loses the value
+  - How do we solve this? JSON.stringify() to the rescue.
 
-- Use this codesanbox: https://codesandbox.io/s/wishlist-exercise-oydf9 for the exercise.
-- There's a working wishlist in this. However, the wishlist is not saved after it is updated. Use useEffect() and localStorage API to save this data to localStorage.
+- Use [this](https://codesandbox.io/s/wishlist-exercise-oydf9) codesanbox for the exercise.
+- There's a working wishlist in this. However, the wishlist is not saved after it is updated. 
+- Use useEffect() and localStorage API to save this data to localStorage.
 - Add a console log as well to print data updated every time this effect is run.
+- [Solution](https://codesandbox.io/s/useeffect-odno00?file=/src/Wishlist.jsx)
 
-### cw04: save wishlist to server
+### Class Work 4: save wishlist to server
 
 - Wishlist udpates should saved to the server using API calls.
 - And then read from those APIs when WishList is loaded.
