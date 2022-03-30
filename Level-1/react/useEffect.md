@@ -37,7 +37,7 @@ export default function App() {
 
 ### Class Work 3: Save items to localStorage
 
-- Documentation to refer: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+- [Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to refer: 
   - Open your console.
   - localStorage.setItem('myKey', 'myValue')
   - Go to Applications and you'll see this value updated.
@@ -56,21 +56,21 @@ export default function App() {
 ### Class Work 4: save wishlist to server
 
 - Wishlist udpates should saved to the server using API calls.
-- And then read from those APIs when WishList is loaded.
+- And then read from those APIs when WishList is loaded. [check - practice react repo]()
 
-### ex01: make your counter print console only once
+### excercise 1 : make your counter print console only once
 
 - Use the useEffect dependency array to control how many times it is logged. Log it only once and say,
   "Hey! This is the initial value of Counter: { counter }".
-- Make sure that it doesn't run on every render.
+- Make sure that it doesn't run on every render. [add empty array - to the end of useEffect]()
 
-### ex02: fix saving to wishlist
+### excercise 02: fix saving to wishlist
 
-- Remember how saving to wishlist was happening even when the text was getting updated in the input box. Fix that now using the dependency array to run only when the list is updated and not the text.
+- Remember how saving to wishlist was happening even when the text was getting updated in the input box. Fix that now using the dependency array to run only when the list is updated and not the text. [add state variable - which needs to change]()
 
 - Fix the dependency array for the network call being made in previous homework where you are saving the wishlist to server.
 
-### ex3 Can you fix the problem?
+### excercise 3: Can you fix the problem?
 
 [Question](https://codesandbox.io/s/fix-localstorage-success-saved-sggj0)
 
