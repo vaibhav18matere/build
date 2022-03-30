@@ -84,6 +84,8 @@ export default function App() {
 
 - [challenge](https://codesandbox.io/s/load-data-exercise-xm4qo?file=/README.md)
 
+- [My Solution](https://codesandbox.io/s/useeffect-server-calls-1lwhtj?file=/src/App.js)
+
 - [solution](https://codesandbox.io/s/load-data-exercise-forked-cy4vbg)
 
 ### ex05: Load Data on page render
