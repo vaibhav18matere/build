@@ -78,7 +78,7 @@ export default function App() {
 
 ### Practice more
 
-[axios syntax](https://github.com/axios/axios)
+[Check axios syntax](https://github.com/axios/axios)
 
 ### ex04: GET data
 
