@@ -91,6 +91,7 @@ export default function App() {
 ### ex05: Load Data on page render
 
 - [challenge](https://codesandbox.io/s/load-products-tzdb8?file=/README.md)
+- [solution](https://codesandbox.io/s/useeffect-load-products-9lscwp)
 
 ### ex06: POST data
 
