@@ -1,3 +1,3 @@
 - [Que.1](https://codesandbox.io/s/setting-up-ei3d5)
 - In the app above create a context using the createContext() call from react.
-- [Solution](https://codesandbox.io/s/usecontext-excercise-kd0ni8?file=/src/context/cartContext.js)
+- [Solution]()
