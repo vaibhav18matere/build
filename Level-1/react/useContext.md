@@ -1,3 +1,3 @@
-- [Que.1](https://codesandbox.io/s/setting-up-ei3d5)
-- In the app above create a context using the createContext() call from react.
+- [Que.1](https://codesandbox.io/s/setting-up-ei3d5) In the app above create a context using the createContext() call from react.
 - [Solution](https://codesandbox.io/s/usecontext-excercise-mp6qj5?file=/src/cart-context.js)
+- Que. 2 Create a simple function logger which does console.log() and pass this function in the cart
