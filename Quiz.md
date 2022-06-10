@@ -1,1 +1,0 @@
-### MCQ Questions for practice
