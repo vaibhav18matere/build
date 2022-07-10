@@ -2,3 +2,4 @@
   - search products from the data file
 - [Todos Component](https://codesandbox.io/s/todos-componentt-2tm9bc?file=/src/App.js)
   - completed, incompleted and all todos from data file
+  - try same problem using [reducer](https://codesandbox.io/s/floral-bird-dh5ism?file=/src/Todo.jsx)
