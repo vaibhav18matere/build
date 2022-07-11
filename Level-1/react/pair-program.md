@@ -6,3 +6,5 @@
 - [Greeting to user](https://codesandbox.io/s/twilight-violet-gkjk1k?file=/src/Solution.js)
 - [Mark complete/incomplete](https://codesandbox.io/s/mark-complte-incomplete-todo-m3jouu?file=/src/App.js)
  the to do task [demo](https://9j0nht.csb.app/)
+- [Add Item](https://codesandbox.io/s/add-new-item-etumio?file=/src/App.js)
+  - Add new item and show on UI
