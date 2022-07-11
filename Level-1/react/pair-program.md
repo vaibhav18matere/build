@@ -4,3 +4,4 @@
   - completed, incompleted and all todos from data file
   - try same problem using [reducer](https://codesandbox.io/s/floral-bird-dh5ism?file=/src/Todo.jsx)
 - [Greeting to user](https://codesandbox.io/s/twilight-violet-gkjk1k?file=/src/Solution.js)
+- Mark complete / inomplete the to do task [demo](https://9j0nht.csb.app/)
