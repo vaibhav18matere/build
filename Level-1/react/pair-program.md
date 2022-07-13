@@ -3,7 +3,7 @@
 2. [Todos Component](https://codesandbox.io/s/todos-componentt-2tm9bc?file=/src/App.js)
     - completed, incompleted and all todos from data file
     - try same problem using [reducer](https://codesandbox.io/s/floral-bird-dh5ism?file=/src/Todo.jsx)
-3. [Greeting to user](https://codesandbox.io/s/twilight-violet-gkjk1k?file=/src/Solution.js)
+3. [Greeting to user](https://codesandbox.io/s/twilight-violet-gkjk1k?file=/src/Solution.js) "hello" or "Hi" based on odd / even.
 4. [Add Item](https://codesandbox.io/s/add-new-item-etumio?file=/src/App.js)
     - Add new item and show on UI 
     - task remaining : clear the inputs after changing state
