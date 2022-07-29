@@ -156,7 +156,16 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 6. Write a program to take a number input from user and print multiplication table 12 times for that number.
+```jsx
+const multiplicationTable = (numGiven) => {
+  for (let i = 1; i <= 12; i++) {
+    const result = numGiven * i;
+    console.log(result);
+  }
+};
 
+multiplicationTable(5);
+```
 7. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
 
 8. Write a program to take an input from a user and find its Factorial.
