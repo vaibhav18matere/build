@@ -108,7 +108,7 @@ for (var i = 1; i <= 100; i++) {
   stringOutput = "";
 }
 ```
-1. Print the following star pattern :-
+2. Print the following star pattern :-
 
     \* \
     \* \* \
@@ -125,13 +125,33 @@ for (let i = 1; i <= 5; i++) {
 //  &nbsp; is used for spacing purpose, just to look good.
 // IMP: br tag is used so that pointer will move to next line after block level codde execution
 ```
-1. Write a program to take a number input from user and print multiplication table 12 times for that number.
+3. Print the following pattern
+- ![123](https://user-images.githubusercontent.com/59862355/181827744-abdae84b-a5d5-4d29-b2da-29e08af8111d.gif)
+```jsx
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= i; j++) {
+    document.write(i + "&nbsp; &nbsp; &nbsp;");
+  }
+  document.write("<br/>");
+}
+```
+4. Print the following pattern
+- ![1234](https://user-images.githubusercontent.com/59862355/181828108-54c8e1dc-a4b8-43f2-b6a3-70682af3adaf.gif)
+```jsx
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= i; j++) {
+    document.write(j + "&nbsp; &nbsp; &nbsp;");
+  }
+  document.write("<br/>");
+}
+```
+5. Write a program to take a number input from user and print multiplication table 12 times for that number.
 
-1. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
+6. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
 
-1. Write a program to take an input from a user and find its Factorial.
+7. Write a program to take an input from a user and find its Factorial.
    `Example: Factorial of 5 is 120`
-1. Write a Program to take a number input from user and find if the number is Prime or not.
+8. Write a Program to take a number input from user and find if the number is Prime or not.
 
-1. Write a program to take a day as an input and determine whether it is a weekday or weekend.
+9. Write a program to take a day as an input and determine whether it is a weekday or weekend.
    `Example: Tuesday is weekday.`
