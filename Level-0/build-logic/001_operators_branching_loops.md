@@ -219,3 +219,4 @@ findFactorial(5);
 
 10. Write a program to take a day as an input and determine whether it is a weekday or weekend.
    `Example: Tuesday is weekday.`
+- [Code Sandbox Link](https://codesandbox.io/s/neog-build-operators-h15nc6?file=/src/index.js) for all the above solutions!
