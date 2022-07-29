@@ -86,6 +86,28 @@ console.log(getDaysInMonth(5, 2024));
       }
     }
 ```
+- Optimised solution :
+```jsx
+let stringOutput = "";
+let divideBy3 = 0,
+  devideBy5 = 0;
+
+for (var i = 1; i <= 100; i++) {
+  divideBy3++;
+  devideBy5++;
+  if (divideBy3 === 3) {
+    stringOutput += "fizz";
+    divideBy3 = 0;
+  }
+  if (devideBy5 === 5) {
+    stringOutput += "buzz";
+    devideBy5 = 0;
+  }
+  if (stringOutput.length === 0) console.log(i);
+  else console.log(stringOutput);
+  stringOutput = "";
+}
+```
 1. Print the following star pattern :-
 
     \* \
