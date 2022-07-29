@@ -58,7 +58,7 @@ const minOfThree = (num1, num2, num3) => {
 };
 minOfThree(35, 39, 46);
 ```
-6. Write program to take a month as an input from the user and find out whether the month has 31 days or not.
+6. Write program to take a month as an input from the user and find out whether the month has 31 days or not. [repl solution](https://replit.com/@Vaibhav18Matere/get-days-in-month#index.js)
 
 ## Intermediate
 
