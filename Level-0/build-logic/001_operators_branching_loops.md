@@ -74,7 +74,7 @@ console.log(getDaysInMonth(5, 2024));
 
     Your output should look something like this `1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17 ..... `
 ```jsx
-    for (let i = 1; i < 101; i++) {
+    for (let i = 1; i <= 100; i++) {
       if (i % 3 === 0 && i % 5 === 0) {
         console.log("fizzBuzz");
       } else if (i % 3 === 0) {
