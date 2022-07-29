@@ -115,7 +115,16 @@ for (var i = 1; i <= 100; i++) {
     \* \* \* \
     \* \* \* \* \
     \* \* \* \* \*
-
+```jsx
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= i; j++) {
+    document.write("* &nbsp; &nbsp; &nbsp;");
+  }
+  document.write("<br/>");
+}
+//  &nbsp; is used for spacing purpose, just to look good.
+// IMP: br tag is used so that pointer will move to next line after block level codde execution
+```
 1. Write a program to take a number input from user and print multiplication table 12 times for that number.
 
 1. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
