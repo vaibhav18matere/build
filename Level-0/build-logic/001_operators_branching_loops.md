@@ -60,6 +60,14 @@ minOfThree(35, 39, 46);
 ```
 6. Write program to take a month as an input from the user and find out whether the month has 31 days or not. [repl solution](https://replit.com/@Vaibhav18Matere/get-days-in-month#index.js)
 
+```jsx
+function getDaysInMonth(month, year) {
+  const days = new Date(year, month, 0).getDate();
+  return days === 31 ? "Yes" : "No";
+}
+console.log(getDaysInMonth(5, 2024));
+```
+
 ## Intermediate
 
 1. Fizzbuzz - Write a program to return an array from 1 to 100. But for every multiple of 3, replace the number with "Fizz", for every multiple of 5, replace the number with "Buzz" and for every multiples of 3 & 5, replace with "FizzBuzz".
