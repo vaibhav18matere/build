@@ -167,7 +167,18 @@ const multiplicationTable = (numGiven) => {
 multiplicationTable(5);
 ```
 7. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
+```jsx
+let firstNumber = 0;
+let secondNumber = 1;
+let numberOfSteps = 9;
 
+for (let i=1; i<=numberOfSteps; i++){
+   console.log(firstNumber);
+  const nextNumber = firstNumber+secondNumber;
+   firstNumber=secondNumber;
+   secondNumber=nextNumber;
+}
+```
 8. Write a program to take an input from a user and find its Factorial.
    `Example: Factorial of 5 is 120`
 9. Write a Program to take a number input from user and find if the number is Prime or not.
