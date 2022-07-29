@@ -193,6 +193,28 @@ const findFactorial = (numInput) => {
 
 findFactorial(5);
 ```
+- You can add checks for invalid input as well.
+- A BETTER SOLUTION WOULD BE
+```jsx
+let factorial = 1;
+
+const findFactorial = (numInput) => {
+  if (numInput < 0) {
+    console.log(`Enter valid positive integer value please`);
+  } else if (numInput === 0) {
+    console.log(`Factorial of 0 is always 1`);
+  } else {
+    for (let i = numInput; i >= 1; i--) {
+      factorial *= i;
+    }
+    console.log(factorial);
+  }
+};
+
+findFactorial(-4);
+findFactorial(0);
+findFactorial(5);
+```
 9. Write a Program to take a number input from user and find if the number is Prime or not.
 
 10. Write a program to take a day as an input and determine whether it is a weekday or weekend.
