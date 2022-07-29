@@ -180,7 +180,19 @@ for (let i=1; i<=numberOfSteps; i++){
 }
 ```
 8. Write a program to take an input from a user and find its Factorial.
-   `Example: Factorial of 5 is 120`
+   `Example: Factorial of 5 is 120 i.e. 5*4*3*2*1=120`
+```jsx
+let finalNum = 1;
+
+const findFactorial = (numInput) => {
+  for (let i = numInput; i >= 1; i--) {
+    finalNum = i * finalNum;
+  }
+  console.log(finalNum);
+};
+
+findFactorial(5);
+```
 9. Write a Program to take a number input from user and find if the number is Prime or not.
 
 10. Write a program to take a day as an input and determine whether it is a weekday or weekend.
