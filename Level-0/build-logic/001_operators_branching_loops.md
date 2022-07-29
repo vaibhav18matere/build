@@ -145,13 +145,23 @@ for (let i = 1; i <= 5; i++) {
   document.write("<br/>");
 }
 ```
-5. Write a program to take a number input from user and print multiplication table 12 times for that number.
+5. Print the following pattern
+- ![12345](https://user-images.githubusercontent.com/59862355/181828587-c01ea4a9-39be-4e09-9955-c16316df201f.gif)
+```jsx
+for (let i = 1; i <= 5; i++) {
+  for (let j = i; j <= 5; j++) {
+    document.write("* &nbsp; &nbsp; &nbsp;");
+  }
+  document.write("<br/>");
+}
+```
+6. Write a program to take a number input from user and print multiplication table 12 times for that number.
 
-6. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
+7. Write a program to return a Fibonacci series : 0,1,1,2,3,5,8,13,21.... [solution](https://replit.com/@Vaibhav18Matere/Neoggreater-fibonachi-series#script.js)
 
-7. Write a program to take an input from a user and find its Factorial.
+8. Write a program to take an input from a user and find its Factorial.
    `Example: Factorial of 5 is 120`
-8. Write a Program to take a number input from user and find if the number is Prime or not.
+9. Write a Program to take a number input from user and find if the number is Prime or not.
 
-9. Write a program to take a day as an input and determine whether it is a weekday or weekend.
+10. Write a program to take a day as an input and determine whether it is a weekday or weekend.
    `Example: Tuesday is weekday.`
