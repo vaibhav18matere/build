@@ -216,7 +216,26 @@ findFactorial(0);
 findFactorial(5);
 ```
 9. Write a Program to take a number input from user and find if the number is Prime or not.
+```jsx
+const checkPrimeNum = (num) => {
+  if (num === 1) {
+    return false;
+  } else if (num === 2) {
+    return true;
+  } else {
+    for (var i = 2; i < num; i++) {
+      if (num % i === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+};
 
+console.log(checkPrimeNum(7));
+console.log(checkPrimeNum(12));
+console.log(checkPrimeNum(13));
+```
 10. Write a program to take a day as an input and determine whether it is a weekday or weekend.
    `Example: Tuesday is weekday.`
 - [Code Sandbox Link](https://codesandbox.io/s/neog-build-operators-h15nc6?file=/src/index.js) for all the above solutions!
