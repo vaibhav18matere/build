@@ -239,4 +239,37 @@ console.log(checkPrimeNum(13));
 - Add checks if user inputs a negative value.
 10. Write a program to take a day as an input and determine whether it is a weekday or weekend.
    `Example: Tuesday is weekday.`
+```jsx
+const weekends = ["saturday", "sunday"];
+
+const weekDayOrWeekend = (dayInput) => {
+  for (let i = 0; i < weekends.length; i++) {
+    if (dayInput.toLowerCase() === weekends[i]) {
+      return `${dayInput} is weekend`;
+    }
+  }
+
+  return `${dayInput} is weekday`;
+};
+
+console.log(weekDayOrWeekend("SUNDAY"));
+```
+- hard code
+```jsx
+function weekendOrNot(day) {
+  if (
+    day.toLowerCase() === "monday" ||
+    day.toLowerCase() === "tuesday" ||
+    day.toLowerCase() === "wednesday" ||
+    day.toLowerCase() === "thursday" ||
+    day.toLowerCase() === "friday"
+  ) {
+    console.log(day + " is Weekday.");
+  } else {
+    console.log(day + " is Weekend.");
+  }
+}
+
+weekendOrNot("TUESDAY");
+```
 - [Code Sandbox Link](https://codesandbox.io/s/neog-build-operators-h15nc6?file=/src/index.js) for all the above solutions!
