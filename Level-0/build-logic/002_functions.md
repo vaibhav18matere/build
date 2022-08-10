@@ -5,6 +5,15 @@
 1. Given a and b, your function should return the value of a<sup>b</sup>  
 **Example:**  
 **Input:** `power(2,3)` ––> **Output:** `8`
+```jsx
+const aPowerB = (a, b) => Math.pow(a, b);
+console.log(aPowerB(2, 3));
+```
+- another approch
+```jsx
+const aRaisedToB = (a, b) => a ** b;
+console.log(aRaisedToB(2, 4));
+```
 1. Given length of a regular hexagon, your function should return area of the hexagon.  
 **Example:**  
 **Input:** `areaOfHexagon(10)` ––> **Output:** `259.80`
