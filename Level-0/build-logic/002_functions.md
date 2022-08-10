@@ -17,6 +17,16 @@ console.log(aRaisedToB(2, 4));
 1. Given length of a regular hexagon, your function should return area of the hexagon.  
 **Example:**  
 **Input:** `areaOfHexagon(10)` ––> **Output:** `259.80`
+```jsx
+const hexagonConst = (3 * Math.sqrt(3)) / 2;
+
+const areaOfHexagon = (side) => {
+  const area = hexagonConst * Number(side ** 2);
+  return area.toFixed(2);
+};
+
+console.log(areaOfHexagon(10));
+```
 1. Given a sentence, your functions should return the number of words in the sentence.  
 **Example:**  
 **Input:** `noOfWords(We are neoGrammers)` ––> **Output:** `3`
