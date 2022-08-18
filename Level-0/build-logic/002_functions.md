@@ -30,6 +30,17 @@ console.log(areaOfHexagon(10));
 1. Given a sentence, your functions should return the number of words in the sentence.  
 **Example:**  
 **Input:** `noOfWords(We are neoGrammers)` ––> **Output:** `3`
+```jsx
+const numberOfWords = (inputGiven) => {
+  if (inputGiven == null || inputGiven.length === 0) {
+    console.log(0);
+  } else {
+    const totalWords = inputGiven.split(" ").length;
+    console.log(totalWords);
+  }
+};
+numberOfWords("We are neoGrammers");
+```
 1. Given n numbers, your function should return the minimum of them all. The number of parameters won't be accepted from user.  
 **Example:**  
 **Input:** `findMin(3,5)` ––> **Output:** `3`  
