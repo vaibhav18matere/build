@@ -43,11 +43,9 @@ numberOfWords("We are neoGrammers");
 ```
 ```jsx
 function countWords(str) {
-  // Check if the string is null or empty then return zero
   if (str == null || str.length === 0) return 0;
-
+  
   let wordCount = 0;
-
   let isWord = false;
   let endOfLine = str.length - 1;
 
@@ -65,8 +63,8 @@ function countWords(str) {
 
       // Check if the character is not a letter
       // that means there is a space, then we
-      // increment the wordCount by one and set
-      // the isWord by false
+      // increment the wordCount by one
+      // and set the isWord by false
     } else if (isLetter(ch[i]) && i === endOfLine) wordCount++;
     // Check for the last word of the sentence and
     // increment the wordCount by one
