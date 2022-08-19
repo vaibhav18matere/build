@@ -83,6 +83,12 @@ console.log(("No of words : " + countWords("Zero One two three four five")));
 **Input:** `findMin(3,5)` ––> **Output:** `3`  
 **Input:** `findMin(3,5,9,1)` ––> **Output:** `1`  
 *(Hint: Lookup rest parameters in JavaScript)*
+```jsx
+const findMin = (...args) => {
+  console.log(Math.min(...args));
+};
+findMin(3, 5, 9, 1, 0, -8);
+```
 1. Given n numbers, your function should return the maximum of them all. The number of parameters won't be accepted from user.  
 **Example:**  
 **Input:** `findMax(3,5)` ––> **Output:** `5`  
