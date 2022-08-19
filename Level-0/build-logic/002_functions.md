@@ -89,6 +89,19 @@ const findMin = (...args) => {
 };
 findMin(3, 5, 9, 1, 0, -8);
 ```
+```jsx
+function findMin(...array) {
+  var i = 0;
+  var min = array[0];
+for (i = 1; i < array.length; i++) {
+  if (array[i] < min) {
+  min = array[i];
+  }
+}
+  return min;
+}
+  console.log(findMin(3, 5, 9, 1));
+```
 1. Given n numbers, your function should return the maximum of them all. The number of parameters won't be accepted from user.  
 **Example:**  
 **Input:** `findMax(3,5)` ––> **Output:** `5`  
