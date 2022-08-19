@@ -41,6 +41,45 @@ const numberOfWords = (inputGiven) => {
 };
 numberOfWords("We are neoGrammers");
 ```
+```jsx
+function countWords(str) {
+  // Check if the string is null or empty then return zero
+  if (str == null || str.length === 0) return 0;
+
+  let wordCount = 0;
+
+  let isWord = false;
+  let endOfLine = str.length - 1;
+
+  // Converting the given string into a character array
+  let ch = str.split("");
+
+  for (let i = 0; i < ch.length; i++) {
+    if (isLetter(ch[i]) && i !== endOfLine) isWord = true;
+    // Check if the character is a letter
+    // and index of character array doesn't equal to end of line
+    // that means, it is a word and set isWord by true.
+    else if (!isLetter(ch[i]) && isWord) {
+      wordCount++;
+      isWord = false;
+
+      // Check if the character is not a letter
+      // that means there is a space, then we
+      // increment the wordCount by one and set
+      // the isWord by false
+    } else if (isLetter(ch[i]) && i === endOfLine) wordCount++;
+    // Check for the last word of the sentence and
+    // increment the wordCount by one
+  }
+  return wordCount;
+}
+
+function isLetter(c) {
+  return c.toLowerCase() !== c.toUpperCase();
+}
+
+console.log(("No of words : " + countWords("Zero One two three four five")));
+```
 1. Given n numbers, your function should return the minimum of them all. The number of parameters won't be accepted from user.  
 **Example:**  
 **Input:** `findMin(3,5)` ––> **Output:** `3`  
