@@ -117,7 +117,23 @@ console.log("Minimum out of all numbers: ", findMin(11, 5, 9, 1));
 5. Given three angles of a triange, your function should return if it is a scalene, isosceles, equilateral triangle or not a triangle at all.
 **Example:**  
 **Input:** `typeOfTriangle(30, 60, 90)` ––> **Output:** `Scalene Triangle`
+```jsx
+const typeOfTriangle = (angle1, angle2, angle3) => {
+  if (angle1 + angle2 + angle3 === 180) {
+    if (angle1 === angle2 && angle2 === angle3) {
+      console.log("Equilateral Triangle");
+    } else if (angle1 === angle2 || angle2 === angle3 || angle1 === angle3) {
+      console.log("Isoscale triangle");
+    } else {
+      console.log("Scalene Triangle");
+    }
+  } else {
+    console.log("It's not a triangle");
+  }
+};
 
+typeOfTriangle(90, 50, 40);
+```
 ## Medium
 
 1. Given an array, your function should return the length of the array.  
