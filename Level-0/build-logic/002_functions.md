@@ -215,7 +215,15 @@ const mergeArray = (arr1, arr2) => {
 };
 
 console.log(mergeArray([1, 3, 5], [2, 4, 6]));
+```
 
+```jsx
+const mergedArray2 = (arr1, arr2) => {
+  let NewmergedArray2 = [...arr1, ...arr2];
+  console.log(NewmergedArray2);
+};
+
+mergedArray2([1, 2, 3], [4, 5, 6]);
 ```
 
 5. Given a string and an index, your function should return the character present at that index in the string.
