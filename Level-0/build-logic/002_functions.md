@@ -233,7 +233,7 @@ mergedArray2([1, 2, 3], [4, 5, 6]);
 ```jsx
 const findChatAtIndex = (strInput, IndexReq) => {
   const newArr = strInput.split(" ").join();
-  console.log(newArr);
+  //console.log(newArr);
   for (let i = 0; i < newArr.length; i++) {
     const result = newArr[IndexReq];
     console.log(result);
