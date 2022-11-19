@@ -195,6 +195,16 @@ const replaceNumWith = (arr, num1, num2) => {
 console.log(replaceNumWith([1, 5, 3, 5, 6, 8], 5, 10));
 ```
 
+- Other approach
+
+```jsx
+const items = [1, 5, 3, 5, 6, 8];
+
+const newItems = items.map((item) => (item === 5 ? 100 : item));
+
+console.log(newItems);
+```
+
 4. Given two arrays, your function should return single merged array.
    **Example:**
    **Input:** `mergeArray([1,3,5], [2,4,6])` ––> **Output:** `[1,3,5,2,4,6]`
