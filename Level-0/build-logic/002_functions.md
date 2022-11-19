@@ -231,7 +231,16 @@ mergedArray2([1, 2, 3], [4, 5, 6]);
    **Input:** `charAt("neoGcamp", 4)` ––> **Output:** `c`
 
 ```jsx
-console.log("function problem");
+const findChatAtIndex = (strInput, IndexReq) => {
+  const newArr = strInput.split(" ").join();
+  console.log(newArr);
+  for (let i = 0; i < newArr.length; i++) {
+    const result = newArr[IndexReq];
+    console.log(result);
+  }
+};
+
+findChatAtIndex("VaibhavMatere", 3);
 ```
 
 6. Given two dates, your function should return which one comes before the other.
