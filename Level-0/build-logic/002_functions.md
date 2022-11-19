@@ -165,7 +165,7 @@ const arrayLength = (arr) => {
 console.log(arrayLength([1, 5, 3, 7, 8]));
 ```
 
-1. Given an array and an item, your function should return the index at which the item is present.
+2. Given an array and an item, your function should return the index at which the item is present.
    **Example:**
    **Input:** `indexOf([1,6,3,5,8,9], 3)` ––> **Output:** `2`
 
@@ -178,20 +178,37 @@ const indexOfNum = (arr, value) => {
 console.log(indexOfNum([1, 6, 3, 5, 8, 9], 3));
 ```
 
-```
-
-1. Given an array and two numbers, your function should replace all entries of first number in an array with the second number.
+3. Given an array and two numbers, your function should replace all entries of first number in an array with the second number.
    **Example:**
    **Input:** `replace([1,5,3,5,6,8], 5, 10)` ––> **Output:** `[1,10,3,10,6,8]`
-1. Given two arrays, your function should return single merged array.
+
+```jsx
+console.log("function problem");
+```
+
+4. Given two arrays, your function should return single merged array.
    **Example:**
    **Input:** `mergeArray([1,3,5], [2,4,6])` ––> **Output:** `[1,3,5,2,4,6]`
-1. Given a string and an index, your function should return the character present at that index in the string.
+
+```jsx
+console.log("function problem");
+```
+
+5. Given a string and an index, your function should return the character present at that index in the string.
    **Example:**
    **Input:** `charAt("neoGcamp", 4)` ––> **Output:** `c`
-1. Given two dates, your function should return which one comes before the other.
+
+```jsx
+console.log("function problem");
+```
+
+6. Given two dates, your function should return which one comes before the other.
    **Example:**
    **Input:** `minDate('02/05/2021', '24/01/2021')` ––> **Output:** `24/01/2021`
+
+```jsx
+console.log("function problem");
+```
 
 ## Advanced
 
@@ -199,22 +216,31 @@ console.log(indexOfNum([1, 6, 3, 5, 8, 9], 3));
    **Example:**
    **Input:** `encodeString("neogcamp", 2)` ––> **Output:** `pgqiecor`
    Explanation: 2 represents shifting alphabets by 2 places. a –> c, b –> d, c –> e and so on.
-1. Given a sentence, return a sentence with first letter of all words as capital.
+
+```jsx
+console.log("function problem");
+```
+
+2. Given a sentence, return a sentence with first letter of all words as capital.
    **Example:**
    **Input:** `toSentenceCase('we are neoGrammers')` ––> **Output:** `We Are NeoGrammers`
-1. Given an array of numbers, your function should return an array in the ascending order.
+
+```jsx
+console.log("function problem");
+```
+
+3. Given an array of numbers, your function should return an array in the ascending order.
    **Example:**
    **Input:** `sortArray([100,83,32,9,45,61])` ––> **Output:** `[9,32,45,61,83,100]`
-1. Given a sentence, your function should reverse the order of characters in each word, keeping same sequence of words.
+
+```jsx
+console.log("function problem");
+```
+
+4. Given a sentence, your function should reverse the order of characters in each word, keeping same sequence of words.
    **Example:**
    **Input:** `reverseCharactersOfWord('we are neoGrammers')` –––> **Output:** `ew era sremmarGoen`
 
-```
-
-```
-
-```
-
-```
-
+```jsx
+console.log("function problem");
 ```
