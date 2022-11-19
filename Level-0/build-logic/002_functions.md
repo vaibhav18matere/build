@@ -169,14 +169,13 @@ console.log(arrayLength([1, 5, 3, 7, 8]));
    **Example:**
    **Input:** `indexOf([1,6,3,5,8,9], 3)` ––> **Output:** `2`
 
-<!-- ```jsx
+```jsx
 const indexOfNum = (arr, value) => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === value) return i;
   }
 };
-console.log(indexOfNum([1, 6, 3, 5, 8, 9], 3)); -->
-
+console.log(indexOfNum([1, 6, 3, 5, 8, 9], 3));
 ```
 
 ```
@@ -209,6 +208,8 @@ console.log(indexOfNum([1, 6, 3, 5, 8, 9], 3)); -->
 1. Given a sentence, your function should reverse the order of characters in each word, keeping same sequence of words.
    **Example:**
    **Input:** `reverseCharactersOfWord('we are neoGrammers')` –––> **Output:** `ew era sremmarGoen`
+
+```
 
 ```
 
