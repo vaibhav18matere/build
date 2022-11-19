@@ -183,7 +183,16 @@ console.log(indexOfNum([1, 6, 3, 5, 8, 9], 3));
    **Input:** `replace([1,5,3,5,6,8], 5, 10)` ––> **Output:** `[1,10,3,10,6,8]`
 
 ```jsx
-console.log("function problem");
+const replaceNumWith = (arr, num1, num2) => {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == num1) {
+      arr[i] = num2;
+    }
+  }
+  return arr;
+};
+
+console.log(replaceNumWith([1, 5, 3, 5, 6, 8], 5, 10));
 ```
 
 4. Given two arrays, your function should return single merged array.
