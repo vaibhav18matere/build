@@ -210,7 +210,12 @@ console.log(newItems);
    **Input:** `mergeArray([1,3,5], [2,4,6])` ––> **Output:** `[1,3,5,2,4,6]`
 
 ```jsx
-console.log("function problem");
+const mergeArray = (arr1, arr2) => {
+  return arr1.concat(arr2);
+};
+
+console.log(mergeArray([1, 3, 5], [2, 4, 6]));
+
 ```
 
 5. Given a string and an index, your function should return the character present at that index in the string.
