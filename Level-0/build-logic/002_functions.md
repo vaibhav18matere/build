@@ -3,8 +3,8 @@
 ## Easy
 
 1. Given a and b, your function should return the value of a<sup>b</sup>  
-**Example:**  
-**Input:** `power(2,3)` ––> **Output:** `8`
+   **Example:**  
+   **Input:** `power(2,3)` ––> **Output:** `8`
 ```jsx
 const aPowerB = (a, b) => Math.pow(a, b);
 console.log(aPowerB(2, 3));
@@ -15,8 +15,8 @@ const aRaisedToB = (a, b) => a ** b;
 console.log(aRaisedToB(2, 4));
 ```
 2. Given length of a regular hexagon, your function should return area of the hexagon.  
-**Example:**  
-**Input:** `areaOfHexagon(10)` ––> **Output:** `259.80`
+   **Example:**  
+   **Input:** `areaOfHexagon(10)` ––> **Output:** `259.80`
 ```jsx
 const hexagonConst = (3 * Math.sqrt(3)) / 2;
 
@@ -28,8 +28,8 @@ const areaOfHexagon = (side) => {
 console.log(areaOfHexagon(10));
 ```
 3. Given a sentence, your functions should return the number of words in the sentence.  
-**Example:**  
-**Input:** `noOfWords(We are neoGrammers)` ––> **Output:** `3`
+   **Example:**  
+   **Input:** `noOfWords(We are neoGrammers)` ––> **Output:** `3`
 ```jsx
 const numberOfWords = (inputGiven) => {
   if (inputGiven == null || inputGiven.length === 0) {
@@ -44,7 +44,7 @@ numberOfWords("We are neoGrammers");
 ```jsx
 function countWords(str) {
   if (str == null || str.length === 0) return 0;
-  
+
   let wordCount = 0;
   let isWord = false;
   let endOfLine = str.length - 1;
@@ -79,9 +79,9 @@ function isLetter(c) {
 console.log(("No of words : " + countWords("Zero One two three four five")));
 ```
 4. Given n numbers, your function should return the minimum of them all. The number of parameters won't be accepted from user.  
-**Example:**  
-**Input:** `findMin(3,5)` ––> **Output:** `3`  
-**Input:** `findMin(3,5,9,1)` ––> **Output:** `1`  
+   **Example:**  
+   **Input:** `findMin(3,5)` ––> **Output:** `3`  
+   **Input:** `findMin(3,5,9,1)` ––> **Output:** `1`  
 *(Hint: Lookup rest parameters in JavaScript)*
 - Using defined method
 ```jsx
@@ -95,14 +95,14 @@ findMin(3, 5, 9, 1, 0, -8);
 function findMin(...array) {
   var i = 0;
   var min = array[0];
-for (i = 1; i < array.length; i++) {
-  if (array[i] < min) {
-  min = array[i];
+  for (i = 1; i < array.length; i++) {
+    if (array[i] < min) {
+      min = array[i];
+    }
   }
-}
   return min;
 }
-  console.log(findMin(3, 5, 9, 1));
+console.log(findMin(3, 5, 9, 1));
 ```
 - using Reducer
 ```jsx
@@ -115,8 +115,8 @@ const findMin = (...numbers) => {
 console.log("Minimum out of all numbers: ", findMin(11, 5, 9, 1));
 ```
 5. Given three angles of a triange, your function should return if it is a scalene, isosceles, equilateral triangle or not a triangle at all.
-**Example:**  
-**Input:** `typeOfTriangle(30, 60, 90)` ––> **Output:** `Scalene Triangle`
+   **Example:**  
+   **Input:** `typeOfTriangle(30, 60, 90)` ––> **Output:** `Scalene Triangle`
 ```jsx
 const typeOfTriangle = (angle1, angle2, angle3) => {
   if (angle1 + angle2 + angle3 === 180) {
@@ -137,36 +137,53 @@ typeOfTriangle(90, 50, 40);
 ## Medium
 
 1. Given an array, your function should return the length of the array.  
-**Example:**  
-**Input:** `arrayLength([1,5,3,7,8])` ––> **Output:** `5`
-1. Given an array and an item, your function should return the index at which the item is present.  
-**Example:**  
-**Input:** `indexOf([1,6,3,5,8,9], 3)` ––> **Output:** `2`
-1. Given an array and two numbers, your function should replace all entries of first number in an array with the second number.  
-**Example:**  
-**Input:** `replace([1,5,3,5,6,8], 5, 10)` ––> **Output:** `[1,10,3,10,6,8]`
-1. Given two arrays, your function should return single merged array.  
-**Example:**  
-**Input:** `mergeArray([1,3,5], [2,4,6])` ––> **Output:** `[1,3,5,2,4,6]`
-1. Given a string and an index, your function should return the character present at that index in the string.  
-**Example:**  
-**Input:** `charAt("neoGcamp", 4)` ––> **Output:** `c`
-1. Given two dates, your function should return which one comes before the other.  
-**Example:**  
-**Input:** `minDate('02/05/2021', '24/01/2021')` ––> **Output:** `24/01/2021`
+    **Example:**  
+    **Input:** `arrayLength([1,5,3,7,8])` ––> **Output:** `5`
+1. Given an array and an item, your function should return the index at which the item is present.
+   **Example:**
+   **Input:** `indexOf([1,6,3,5,8,9], 3)` ––> **Output:** `2`
+
+```jsx
+const indexOfNum = (arr, value) => {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) return i;
+  }
+};
+console.log(indexOfNum([1, 6, 3, 5, 8, 9], 3));
+```
+
+````
+
+1. Given an array and two numbers, your function should replace all entries of first number in an array with the second number.
+   **Example:**
+   **Input:** `replace([1,5,3,5,6,8], 5, 10)` ––> **Output:** `[1,10,3,10,6,8]`
+1. Given two arrays, your function should return single merged array.
+   **Example:**
+   **Input:** `mergeArray([1,3,5], [2,4,6])` ––> **Output:** `[1,3,5,2,4,6]`
+1. Given a string and an index, your function should return the character present at that index in the string.
+   **Example:**
+   **Input:** `charAt("neoGcamp", 4)` ––> **Output:** `c`
+1. Given two dates, your function should return which one comes before the other.
+   **Example:**
+   **Input:** `minDate('02/05/2021', '24/01/2021')` ––> **Output:** `24/01/2021`
 
 ## Advanced
 
 1. Write a function which generates a secret code from a given string, by shifting characters of alphabet by N places.
-**Example:**  
-**Input:** `encodeString("neogcamp", 2)` ––> **Output:** `pgqiecor`  
-Explanation: 2 represents shifting alphabets by 2 places. a –> c, b –> d, c –> e and so on.
-1. Given a sentence, return a sentence with first letter of all words as capital.  
-**Example:**  
-**Input:** `toSentenceCase('we are neoGrammers')` ––> **Output:** `We Are NeoGrammers`
-1. Given an array of numbers, your function should return an array in the ascending order.  
-**Example:**  
-**Input:** `sortArray([100,83,32,9,45,61])` ––> **Output:** `[9,32,45,61,83,100]`
-1. Given a sentence, your function should reverse the order of characters in each word, keeping same sequence of words.  
-**Example:**  
-**Input:** `reverseCharactersOfWord('we are neoGrammers')` –––> **Output:** `ew era sremmarGoen`
+   **Example:**
+   **Input:** `encodeString("neogcamp", 2)` ––> **Output:** `pgqiecor`
+   Explanation: 2 represents shifting alphabets by 2 places. a –> c, b –> d, c –> e and so on.
+1. Given a sentence, return a sentence with first letter of all words as capital.
+   **Example:**
+   **Input:** `toSentenceCase('we are neoGrammers')` ––> **Output:** `We Are NeoGrammers`
+1. Given an array of numbers, your function should return an array in the ascending order.
+   **Example:**
+   **Input:** `sortArray([100,83,32,9,45,61])` ––> **Output:** `[9,32,45,61,83,100]`
+1. Given a sentence, your function should reverse the order of characters in each word, keeping same sequence of words.
+   **Example:**
+   **Input:** `reverseCharactersOfWord('we are neoGrammers')` –––> **Output:** `ew era sremmarGoen`
+
+```
+
+```
+````
