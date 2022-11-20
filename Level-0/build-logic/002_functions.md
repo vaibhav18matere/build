@@ -260,6 +260,15 @@ const minDate = (date1, date2) => {
 console.log(minDate("02/05/2021", "24/01/2021"));
 ```
 
+- using ternary operator
+
+```jsx
+const findMinDate = (date1, date2) => {
+  return date1 > date2 ? date1 : date2 > date1 ? date2 : "both dates are same";
+};
+console.log(findMinDate("02/05/2021", "24/01/2021"));
+```
+
 ## Advanced
 
 1. Write a function which generates a secret code from a given string, by shifting characters of alphabet by N places.
