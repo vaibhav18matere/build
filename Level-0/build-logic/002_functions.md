@@ -248,7 +248,16 @@ findChatAtIndex("VaibhavMatere", 3);
    **Input:** `minDate('02/05/2021', '24/01/2021')` ––> **Output:** `24/01/2021`
 
 ```jsx
-console.log("function problem");
+const minDate = (date1, date2) => {
+  if (date1 > date2) {
+    return date1;
+  } else if (date1 < date2) {
+    return date2;
+  } else {
+    return "both dates are same";
+  }
+};
+console.log(minDate("02/05/2021", "24/01/2021"));
 ```
 
 ## Advanced
