@@ -277,7 +277,15 @@ console.log(findMinDate("02/05/2021", "24/01/2021"));
    Explanation: 2 represents shifting alphabets by 2 places. a –> c, b –> d, c –> e and so on.
 
 ```jsx
-console.log("function problem");
+const shiftCharactersTo = (str, n) => {
+  let arr = [];
+  for (let i = 0; i < str.length; i++) {
+    arr.push(String.fromCharCode(str[i].charCodeAt() + n));
+  }
+  let res = arr.join("").replace(/{/g, "a");
+  return res;
+};
+console.log(shiftCharactersTo("abcd", 2));
 ```
 
 2. Given a sentence, return a sentence with first letter of all words as capital.
@@ -285,7 +293,13 @@ console.log("function problem");
    **Input:** `toSentenceCase('we are neoGrammers')` ––> **Output:** `We Are NeoGrammers`
 
 ```jsx
-console.log("function problem");
+const sentence = "my name is Vaibhav matere";
+
+console.log(
+  sentence.replace(/(^\w{1})|(\s+\w{1})/g, 
+  (letter) => letter.toUpperCase())
+);
+
 ```
 
 3. Given an array of numbers, your function should return an array in the ascending order.
