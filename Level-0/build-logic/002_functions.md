@@ -301,7 +301,17 @@ console.log(
 );
 
 ```
+- using loops
+```jsx
+const mySentence = "i am from India";
+const words = mySentence.split(" ");
 
+for (let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+}
+
+words.join(" ");
+```
 3. Given an array of numbers, your function should return an array in the ascending order.
    **Example:**
    **Input:** `sortArray([100,83,32,9,45,61])` ––> **Output:** `[9,32,45,61,83,100]`
