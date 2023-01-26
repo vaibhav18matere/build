@@ -313,11 +313,11 @@ console.log(
 
 ```
 3. Given an array of numbers, your function should return an array in the ascending order.
-   **Example:**
-   **Input:** `sortArray([100,83,32,9,45,61])` ––> **Output:** `[9,32,45,61,83,100]`
-
 ```jsx
-console.log("function problem");
+let numbers = [0, 10, 2, 13, 10, 20, 30, -8];
+numbers.sort((a, b) => a - b);
+
+console.log(numbers);
 ```
 
 4. Given a sentence, your function should reverse the order of characters in each word, keeping same sequence of words.
