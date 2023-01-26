@@ -291,16 +291,6 @@ console.log(shiftCharactersTo("abcd", 2));
 2. Given a sentence, return a sentence with first letter of all words as capital.
    **Example:**
    **Input:** `toSentenceCase('we are neoGrammers')` ––> **Output:** `We Are NeoGrammers`
-
-```jsx
-const sentence = "my name is Vaibhav matere";
-
-console.log(
-  sentence.replace(/(^\w{1})|(\s+\w{1})/g, 
-  (letter) => letter.toUpperCase())
-);
-
-```
 - using loops
 ```jsx
 const mySentence = "i am from India";
@@ -311,6 +301,16 @@ for (let i = 0; i < words.length; i++) {
 }
 
 words.join(" ");
+```
+- using regular expression
+```jsx
+const sentence = "my name is Vaibhav matere";
+
+console.log(
+  sentence.replace(/(^\w{1})|(\s+\w{1})/g, 
+  (letter) => letter.toUpperCase())
+);
+
 ```
 3. Given an array of numbers, your function should return an array in the ascending order.
    **Example:**
