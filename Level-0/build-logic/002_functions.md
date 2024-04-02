@@ -325,5 +325,24 @@ console.log(numbers);
    **Input:** `reverseCharactersOfWord('we are neoGrammers')` –––> **Output:** `ew era sremmarGoen`
 
 ```jsx
-console.log("function problem");
+function reverseCharactersOfWord(sentence) {
+    
+  // Split the input sentence into an array of words
+  const words = sentence.split(' ');
+
+  // Iterate through each word and reverse its characters
+  const reversedWords = words.map(word => {
+    return word.split('').reverse().join('');
+  });
+
+  // Join the reversed words back together to form the output sentence
+  const reversedSentence = reversedWords.join(' ');
+
+  return reversedSentence;
+}
+
+
+reverseCharactersOfWord('we are neoGrammers'); 
+
+// Output: ew era sremmarGoen
 ```
